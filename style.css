@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.cell {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+table tr:nth-child(3n) td, table tr:nth-child(3n + 3) td {
+    border-bottom: 0.3rem solid black;
+}
+
+table td:nth-child(3n) {
+    border-right: 0.3rem solid black;
+}
+
+input {
+    outline: none;
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 15%;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
