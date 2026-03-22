@@ -65,3 +65,14 @@ button:hover {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .cell {
+        width: 10vw; 
+        height: 10vw;
+        font-size: 1.5rem;
+    }
+    button {
+        width: 50%; 
+        font-size: 1.2rem;
+    }
+}
